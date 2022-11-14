@@ -1,0 +1,9 @@
+{
+	"name": "cypress-tests",
+	"private": true,
+	"version": "1.0.0",
+	"description": "",
+	"dependencies": {
+		"cypress": "^10.11.0"
+	}
+}
