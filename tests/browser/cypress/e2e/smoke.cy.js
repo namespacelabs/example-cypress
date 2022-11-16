@@ -9,6 +9,6 @@ describe("My First Test", () => {
 		cy.visit("http://" + Cypress.env("ROOT_HOST"));
 
 		// Verify that the page contains the expected text.
-		cy.contains("Hello, world!");
+		cy.contains("Welcome to Namespace.");
 	});
 });

@@ -1,0 +1,14 @@
+.app {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+.logo {
+	width: 2em;
+	height: 2em;
+}
+
+.block {
+	font-size: x-large;
+}
