@@ -1,10 +1,10 @@
 server: {
-	name: "myserver"
+	name: "ApiBackend"
 
 	integration: "nodejs"
 
 	services: {
-		webapi: {
+		apiservice: {
 			port: 4000
 			kind: "http"
 

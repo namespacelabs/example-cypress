@@ -9,6 +9,11 @@
 	height: 2em;
 }
 
-.block {
+.welcome {
 	font-size: x-large;
+}
+
+.server-response {
+	display: flex;
+	flex-direction: column;
 }
