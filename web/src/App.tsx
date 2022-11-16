@@ -28,9 +28,9 @@ function BackendResponse() {
 			.then((text) => setResponse(text));
 	}, []);
 	return (
-		<div className="server-response">
+		<div className="server-response-block">
 			<span>Response from the API server:</span>
-			<span>{response}</span>
+			<span className="server-response">{response}</span>
 		</div>
 	);
 }

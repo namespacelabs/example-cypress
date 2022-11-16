@@ -13,7 +13,11 @@
 	font-size: x-large;
 }
 
-.server-response {
+.server-response-block {
 	display: flex;
 	flex-direction: column;
+}
+
+.server-response {
+	color: #777;
 }
