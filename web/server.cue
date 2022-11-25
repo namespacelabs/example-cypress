@@ -17,6 +17,6 @@ server: {
 		port: 5173
 		kind: "http"
 
-		ingress: internetFacing: true
+		ingress: true
 	}
 }
