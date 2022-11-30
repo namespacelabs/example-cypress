@@ -1,8 +1,8 @@
 server: {
-	name: "WebFrontend"
+	name: "web-frontend"
 
 	integration: web: {
-		service: "webservice"
+		devPort: 5173
 
 		// When adding a reference to the API server to the `backends` block, Namespace will
 		// 1) add the API server to the deployed stack
@@ -10,13 +10,5 @@ server: {
 		backends: {
 			"api": "namespacelabs.dev/example-cypress/api:apiservice"
 		}
-	}
-
-	services: webservice: {
-		// Default Vite port
-		port: 5173
-		kind: "http"
-
-		ingress: true
 	}
 }
